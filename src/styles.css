@@ -63,3 +63,7 @@ h1 {
     border: 2px solid rgba(0, 255, 255, 0.405);
     box-shadow: 2px 2px 5px darkslategrey;
 }
+
+#github-link {
+    text-align: center;
+}
