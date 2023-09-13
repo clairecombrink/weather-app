@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px 1px dimgrey;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    background: linear-gradient(209deg,
+            rgb(76, 139, 171) 0%,
+            rgb(47, 55, 98) 100%);
+    padding: 25px;
+    min-width: 35%;
+    max-width: 75%;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+#forecast {
+    margin-top: 15px;
+}
+
+#day-and-time {
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+.superscript {
+    position: relative;
+    bottom: 8px;
+    left: 4px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.unit {
+    color: skyblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.forecast-ss {
+    position: relative;
+    bottom: 5px;
+    left: 2px;
+    font-size: 10px;
+}
+
+#search-button {
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.205);
+    box-shadow: 2px 2px 5px darkslategrey;
+}
+
+#current-location {
+    background: none;
+    border: 2px solid rgba(0, 255, 255, 0.405);
+    box-shadow: 2px 2px 5px darkslategrey;
+}
